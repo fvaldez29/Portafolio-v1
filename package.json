@@ -1,0 +1,36 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Portafolio personal de todos los proyectos realizados hasta el momento.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch server.js",
+    "sass": "sass --watch public/sass:public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fvaldez29/Portafolio.git"
+  },
+  "author": "Franklyn Valdez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fvaldez29/Portafolio/issues"
+  },
+  "homepage": "https://github.com/fvaldez29/Portafolio#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.16",
+    "sass": "^1.82.0"
+  }
+}
