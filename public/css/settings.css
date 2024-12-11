@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  /* Colores base */
+  --bck-color: #ffffff; /* Fondo claro */
+  --bck-color-dark: #121212; /* Fondo oscuro */
+  --text-color: #434649a9; /* Texto primario */
+  --text-color-dark: #d1d5db; /* Texto en modo oscuro */
+  --primary-color: #122c80; /* Color principal */
+  --accent-color: #f9a60c; /* Color de acento */
+  --hover: #3d9970; /* Color para hover */
+  --border-lines: #e9ecef; /* Color para bordes */
+
+  /* Colores secundarios */
+  --secondary-color: #495057; /* Para elementos secundarios */
+  --secondary-hover: #adb5bd; /* Hover de elementos secundarios */
+  --tertiary-color: #17a2b8; /* Color adicional para secciones */
+
+  /* Paleta tecnológica (inspirada en backend) */
+  --nodejs-color: #68a063;
+  --express-color: #000000;
+  --redis-color: #d82c20;
+  --git-color: #f1502f;
+  --postgresql-color: #336791;
+
+  /* Tipografía */
+  --font-primary: 'Roboto', sans-serif;
+  --font-secondary: 'Lato', sans-serif;
+
+  /* Espaciado */
+  --padding-small: 0.5rem;
+  --padding-medium: 1rem;
+  --padding-large: 2rem;
+
+  /* Sombreados y bordes */
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --border-radius: 0.5rem;
+
+  /* Tamaños */
+  --container-width: 1200px;
+  --content-width: 100%;
+  --icon-size: 2rem;
+
+  /* Colores para alertas */
+  --success-color: #28a745;
+  --error-color: #dc3545;
+  --warning-color: #ffc107;
+  --info-color: #17a2b8;
+}
+
+
+.darkmode {
+  background-color: var(--bck-color-dark);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.darkmode body, 
+.darkmode a, 
+.darkmode li, 
+.darkmode p, 
+.darkmode h1, 
+.darkmode h2 {
+  color: var(--text-color-dark) !important;
+}
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+a, li, p, h1, h2{
+  color: var(--text-color);
+}
+
