@@ -54,12 +54,12 @@
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.darkmode body, 
 .darkmode a, 
 .darkmode li, 
 .darkmode p, 
 .darkmode h1, 
-.darkmode h2 {
+.darkmode h2,
+.darkmode img {
   color: var(--text-color-dark) !important;
 }
 a{

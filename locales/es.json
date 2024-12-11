@@ -1,0 +1,11 @@
+{
+	"home": "Inicio",
+	"project": "Proyecto",
+	"skills": "Habilidades",
+	"about": "Sobre",
+	"info": "Contacto",
+	"greeting": "Hola, soy Franklyn...",
+	"intro": "Un Desarrollador <span class='highlight'>{backend} </span>",
+	"description": "Me especializo en construir soluciones de software robustas que ayudan a las empresas a alcanzar sus objetivos de manera más eficiente.",
+	"contact": "Contáctame"
+}

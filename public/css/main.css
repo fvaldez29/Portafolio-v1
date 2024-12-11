@@ -22,6 +22,7 @@ header {
   box-shadow: var(--box-shadow);
   display: flex;
   align-items: center;
+  justify-content: space-around;
   padding: var(--padding-medium);
   position: fixed;
   top: 0;
@@ -45,16 +46,29 @@ header a:hover {
   align-items: center;
   width: 100%;
   max-width: var(--container-width);
-  margin: 0 auto;
 }
+
 
 .navbar ul {
   display: flex;
+  width: 100%;
+  justify-content: flex-end;
   align-items: center;
+  gap: 1rem;
+}
+
+.navbar ul li a {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: var(--hover);
 }
 
 .logotype-container {
-  width: 120px;
+  width: 11rem
 }
 
 .logotype-container img {
@@ -72,6 +86,12 @@ header a:hover {
   align-items: center;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.addition-option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #theme-switch img {
@@ -93,28 +113,31 @@ header a:hover {
 }
 
 /* MAIN SECTION CONTAINER */
-
 main {
   width: 100%;
-  height: 100vh;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  padding-top: 6rem; /* Ajuste para el header fijo */
+  padding-top: 6rem; 
 }
 
 .main__container {
-  padding: var(--padding-large);
-  width: 100%;
-  max-width: var(--container-width);
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  text-align: left;
-  animation: fadeIn 1s ease;
-}
+    padding: var(--padding-large);
+    width: 100%;
+    height: 100vh;
+    max-width: var(--container-width);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    animation: fadeIn 1s ease;
+    background: url('../assets/image/background-main.png');
+    background-position: center right; 
+    background-size: 90vh; 
+    background-repeat: no-repeat; 
+  }
 
 .greeting {
   font-size: 1.5rem;
@@ -179,7 +202,6 @@ main {
 }
 
 /* ANIMATIONS */
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -189,4 +211,12 @@ main {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+
+/* PROJECT SECTION */
+.project__section{
+    height: 100vh;
+    width: 100%;
+    background-color: var(--primary-color);
 }

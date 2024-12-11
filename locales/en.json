@@ -1,0 +1,11 @@
+{
+  "home": "Home",
+  "project": "Project",
+  "skills": "Skills",
+  "about": "About",
+  "info": "Contact",
+  "greeting": "Hi, I'm Franklyn...",
+  "intro": "A <span class='highlight'>{backend} </span> Developer",
+  "description": "I specialize in building robust software solutions that help businesses achieve their goals more efficiently.",
+  "contact": "Contact Me"
+}

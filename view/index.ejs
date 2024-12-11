@@ -1,19 +1,19 @@
 <main>
     <section class="main__container" id="home">
-        <p class="greeting">Hi, I'm Franklyn...</p>
+        <p class="greeting"><%= __('greeting') %></p>
         <h1 class="intro">
-            A <span class="highlight">{Backend}</span> Developer
+             <%- __('intro') %> 
         </h1>
         <div class="main__text-container">
             <p class="description">
-                I specialize in building robust software solutions that help businesses achieve their goals more efficiently.
+                <%= __('description') %>
             </p>
             <button class="contact-btn">
-                Contact Me <i><img src="/assets/icons/arrow_forward.svg" alt="arrow icon"></i>
+                <%= __('contact') %> <i><img src="/assets/icons/arrow_forward.svg" alt="arrow icon"></i>
             </button>
         </div>
     </section>
     <section class="project__section">
-        
+
     </section>
 </main>

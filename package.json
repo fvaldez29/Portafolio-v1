@@ -21,6 +21,7 @@
   "homepage": "https://github.com/fvaldez29/Portafolio#readme",
   "dependencies": {
     "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "ejs": "^3.1.10",
@@ -28,8 +29,12 @@
     "express-ejs-layouts": "^2.5.1",
     "express-rate-limit": "^7.4.1",
     "helmet": "^8.0.0",
+    "i18n": "^0.15.1",
     "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.0",
     "nodemailer": "^6.9.16"
+  },
+  "devDependencies": {
+    "bootstrap": "^5.3.3"
   }
 }
