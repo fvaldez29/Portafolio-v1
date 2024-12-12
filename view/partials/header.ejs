@@ -1,27 +1,32 @@
 <header id="home">
     <nav class="navbar">
+    
         <a class="logotype-container" href="#home">
             <img src="/assets/image/logotype.png" alt="logotype">
         </a>
-        
-        <button class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        
-        <ul class="menu" id="menu">
-            <li><a href="#home"><%= __('home') %></a></li>
-            <li><a href="#project"><%= __('project') %></a></li>
-            <li><a href="#skills"><%= __('skills') %></a></li>
-            <li><a href="#about"><%= __('about') %></a></li>
-            <li><a href="#info"><%= __('info') %></a></li>
-        </ul>
-       
-            <li><a href="?lang=es">Español</a> | <a href="?lang=en">English</a></li>
+   
+        <div class="right-options">
+            <li>
+                <a href="?lang=es">Español</a> | 
+                <a href="?lang=en">English</a>
+            </li>
             <button id="theme-switch">
                 <img src="/assets/icons/moon-svgrepo-com.svg" alt="moon-icon">
                 <img src="/assets/icons/sun-2-svgrepo-com.svg" alt="sun-icon">
             </button>
+        </div>
     </nav>
+   
+    <div class="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <ul class="menu" id="menu">
+        <li><a href="#home"><%= __('home') %></a></li>
+        <li><a href="#project"><%= __('project') %></a></li>
+        <li><a href="#skills"><%= __('skills') %></a></li>
+        <li><a href="#about"><%= __('about') %></a></li>
+        <li><a href="#info"><%= __('info') %></a></li>
+    </ul>
 </header>

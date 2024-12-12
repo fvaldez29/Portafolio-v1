@@ -54,7 +54,7 @@ app.use(
       directives: {
         defaultSrc: ["'self'"],
         styleSrc: ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com", "https://cdn.jsdelivr.net"], // Allow Bootstrap and Google Fonts
-        fontSrc: ["'self'", "https://fonts.gstatic.com"], // Allow Google Fonts
+        fontSrc: ["'self'", "https://fonts.gstatic.com"], 
         scriptSrc: ["'self'", "https://cdn.jsdelivr.net"], // Allow Bootstrap JS from CDN
         connectSrc: ["'self'"], // If using fetch or AJAX requests
         imgSrc: ["'self'", "data:"], // Allow images

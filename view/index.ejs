@@ -1,8 +1,10 @@
 <main>
     <section class="main__container" id="home">
-        <p class="greeting"><%= __('greeting') %></p>
+        <p class="greeting">
+            <%= __('greeting') %>
+        </p>
         <h1 class="intro">
-             <%- __('intro') %> 
+            <%- __('intro') %>
         </h1>
         <div class="main__text-container">
             <p class="description">
@@ -13,7 +15,59 @@
             </button>
         </div>
     </section>
-    <section class="project__section">
 
+    <section class="project__section">
+        <h2 id="project">
+            <%= __('project-title') %>
+        </h2>
+        <div class="project-grid">
+            <% if (repos && repos.length> 0) { %>
+                <% repos.forEach(repo=> { %>
+                    <div class="project-card">
+                        <h2>
+                            <%= repo.name %>
+                        </h2>
+                        <p><strong>
+                                <%= __('desc') %>:
+                            </strong>
+                            <%= repo.description || __("project-description-default") %>
+                        </p>
+                        <p><strong>
+                                <%= __("project-language") %>:
+                            </strong>
+                            <%= repo.language || "No especificado" %>
+                        </p>
+                        <p><strong>
+                                <%= __("project-stars") %>:
+                            </strong> ⭐ <%= repo.stars %>
+                        </p>
+                        <a href="<%= repo.url %>" target="_blank" class="btn">
+                            <%= __("project-view-on-github") %>
+                        </a>
+                    </div>
+                    <% }) %>
+                        <% } else { %>
+                            <p>
+                                <%= __("project-no-projects") %>
+                            </p>
+                            <% } %>
+        </div>
+    </section>
+    <section id="skills">
+        <h2 id="skills">
+            <%= __('skills') %>
+        </h2>
+        <div class="skills-container">
+            <img src="/assets/icons/postgresql.svg" alt="postgresql" class="skills-icons">
+            <img src="/assets/icons/node-js-svgrepo-com.svg" alt="node-js" class="skills-icons">
+            <img src="/assets/icons/sass-svgrepo-com.svg" alt="sass-icon" class="skills-icons">
+            <img src="/assets/icons/docker-logo-svgrepo-com.svg" alt="docker" class="skills-icons">
+            <img src="/assets/icons/js-svgrepo-com.svg" alt="javascript" class="skills-icons">
+        </div>
+    </section>
+
+    <section id="about">
+        <h2><%= __('about') %></h2>
+        <p> <%- __('about-text') %></p>
     </section>
 </main>

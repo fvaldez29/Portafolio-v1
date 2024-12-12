@@ -6,7 +6,6 @@
   --bck-color-dark: #121212; /* Fondo oscuro */
   --text-color: #434649a9; /* Texto primario */
   --text-color-dark: #d1d5db; /* Texto en modo oscuro */
-  --primary-color: #122c80; /* Color principal */
   --accent-color: #f9a60c; /* Color de acento */
   --hover: #3d9970; /* Color para hover */
   --border-lines: #e9ecef; /* Color para bordes */
@@ -49,7 +48,10 @@
 }
 
 
-.darkmode {
+.darkmode,
+.darkmode header,
+.darkmode footer,
+.darkmode #about {
   background-color: var(--bck-color-dark);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -59,7 +61,9 @@
 .darkmode p, 
 .darkmode h1, 
 .darkmode h2,
-.darkmode img {
+.darkmode img,
+.darkmode header
+{
   color: var(--text-color-dark) !important;
 }
 a{
