@@ -2,7 +2,7 @@
 	"home": "Inicio",
 	"project": "Proyecto",
 	"skills": "Habilidades",
-	"about": "Sobre mi",
+	"about": "Sobre",
 	"about-text": "Soy un desarrollador backend con experiencia en la creación de aplicaciones escalables y eficientes. Mi enfoque se basa en el uso de tecnologías modernas y mejores prácticas para resolver problemas complejos y ofrecer soluciones robustas. Tengo experiencia trabajando con <strong>Node.js</strong> y <strong>Express</strong>, donde implemento APIs RESTful seguras y optimizadas para satisfacer las necesidades del cliente. Además, tengo habilidades en el uso de <strong>PostgreSQL</strong> para una gestión eficiente de bases de datos, asegurando la integridad de los datos y consultas rápidas. Me especializo en escribir código limpio y mantenible, y utilizo herramientas como <strong>Sass</strong> para garantizar un diseño web flexible y estilizado, manteniendo la consistencia y escalabilidad en los proyectos. Aunque mi enfoque principal es el desarrollo backend, tengo un conocimiento sólido de <strong>HTML/CSS</strong>, lo que me permite colaborar en todas las capas de la aplicación para crear experiencias de usuario funcionales y atractivas. Siempre estoy aprendiendo y buscando nuevas formas de mejorar mi flujo de trabajo y habilidades técnicas, con el objetivo de entregar productos finales que sean tanto eficientes como fáciles de mantener a largo plazo.",	"info": "Contacto",
 	"greeting": "Hola, soy Franklyn...",
 	"intro": "Un Desarrollador <span class='highlight'>{backend} </span>",

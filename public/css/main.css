@@ -134,6 +134,8 @@ header {
 /* MENÚ RESPONSIVO */
 .menu {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 1rem;
 }
 
@@ -210,7 +212,7 @@ main {
   flex-direction: column;
   align-items: center;
   min-height: 100vh; 
-  padding-bottom: 2rem; 
+  padding: 2rem; 
 }
 
 
@@ -513,7 +515,7 @@ main {
   line-height: 2.6;
   letter-spacing: 2px;
   text-align: justify;
-  color: var(--text-color-dark);
+  color: var(--text-color);
   margin-bottom: 1.5rem;
 }
 
