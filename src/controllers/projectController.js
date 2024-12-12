@@ -9,7 +9,8 @@ export const getProjectController = async(req, res) => {
             'Menu-de-comida-INFOTEP',
             'API-Gestion-de-tareas-API',
             'Chatbox',
-            'Find-hat-terminal-'
+            'Find-hat-terminal-',
+            'Portafolio'
         ]
 
         const response = await axios.get(`https://api.github.com/users/${process.env.GITHUB_USERNAME}/repos`, {
